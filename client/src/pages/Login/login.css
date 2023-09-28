@@ -1,0 +1,12 @@
+.container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container > form > input[type="email"],
+.container > form > input[type="password"] {
+  margin: 10px;
+}
